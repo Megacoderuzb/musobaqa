@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  background-color: #f1f0ee;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.navbar {
+  max-width: 1182px;
+  /* width: 100%; */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 17px 32px;
+}
+.menu-mobile {
+  display: flex;
+}
+.hero {
+  background-color: #f1f0ee;
+}
+.intro h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  /* line-height: px; */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.8px;
+  color: #000000;
+}
+
+.animated-text {
+  height: 60px;
+  overflow: hidden;
+  position: relative;
+}
+
+.animated-text h3 {
+  color: #ba8d5b;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.8px;
+
+  opacity: 0.96;
+}
+
+.animated-text h3:nth-child(1) {
+  animation: text-move 15s infinite, cubic-bezier(0.35, 0.08, 0.68, 0.99);
+}
+/* .nav-ul {
+  width: auto;
+} */
+.intro {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  /* background-image: url("../images/herobg.png"); */
+}
+
+.nav-ul ul,
+.menu-mobile {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  /* width: 100%; */
+  justify-content: space-between;
+  list-style-type: none;
+  gap: 2rem;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 138%;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.nav-ul ul li a,
+.menu-mobile a {
+  text-decoration: none;
+  color: inherit;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 138%;
+}
+.navbtn {
+  all: inherit;
+  background: #ffffff;
+  border-radius: 100px;
+  border: none;
+  padding: 0.7rem 3rem;
+  /* transform: scale(1.4); */
+  margin: 0 2rem;
+}
+.navbtn:hover {
+  /* all: inherit; */
+  /* background: #ffffff;
+  border-radius: 100px; */
+  border: 1px solid #ba8d5b;
+  /* padding: 1rem 2rem; */
+
+  /* transform: scale(1.4); */
+  /* margin: 0 2rem; */
+}
+.img-box {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url("https://najottalim.uz/_next/static/media/hero-bg.80b5b0ba.png");
+}
+.for-bg {
+  width: 67vw;
+  height: 60vh;
+  /* padding: 2rem 0; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url("../images/herobg.png");
+}
+.slogan {
+  font-weight: 900;
+  font-size: 18px;
+  font-family: "Lato";
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  margin: 0 0 70px;
+  color: #607987;
+}
+.herobtn {
+  all: unset;
+  border-radius: 30px;
+  /* border: none; */
+  background: #ba8d5b;
+  color: #ffffff;
+  padding: 1rem 55px;
+}
+.aboutus {
+  background-color: #fff;
+  font-family: "Lato";
+}
+.info-grid,
+.info {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-auto-rows: 200px;
+  gap: 3rem;
+}
+/* .info-grid {
+  display: none;
+} */
+.info-box {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 2rem;
+}
+.info-text p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.28px;
+
+  color: #607987;
+}
+.heading {
+  font-size: 2rem;
+
+  font-weight: 800;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.64px;
+  padding: 4rem 0;
+  color: #0f1826;
+}
+/* .aboutus{
+
+} */
+.menu-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 2rem;
+  cursor: pointer;
+  z-index: 9999;
+  width: 200px;
+}
+.courses {
+  height: 100%;
+  background-color: #f1f0ee;
+  display: block;
+  padding: 2rem;
+}
+.title h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 56px;
+  /* identical to box height, or 175% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.64px;
+
+  color: #0f1826;
+}
+.title p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+
+  color: #607987;
+}
+.courses-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 576px 0px 0px;
+  gap: 33px;
+}
+.course-link {
+  color: #0eb182;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 60px;
+}
+.courses-item {
+  width: 300px;
+  border: 1px solid #607987;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+}
+.courses-item .course-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #0f1826;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+@keyframes text-move {
+  0% {
+    margin-top: 0px;
+  }
+
+  20% {
+    margin-top: -50px;
+  }
+
+  40% {
+    margin-top: -100px;
+  }
+
+  60% {
+    margin-top: -150px;
+  }
+
+  80% {
+    margin-top: -200px;
+  }
+  100% {
+    margin-top: -250px;
+  }
+}
+@media (min-width: 860px) {
+  .menu-mobile {
+    display: none;
+  }
+  .burger {
+    display: none;
+  }
+  /* width: 80vw;
+    height: 60vh; */
+  /* position: relative; */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  /* background-size: contain; */
+  /* background-image: url("https://najottalim.uz/_next/static/media/hero-bg.80b5b0ba.png"); */
+}
+@media (max-width: 860px) {
+  .menu-mobile li {
+    width: 100%;
+  }
+  .nav-ul ul {
+    display: none;
+  }
+  .for-bg {
+    display: none;
+  }
+  .info-grid,
+.info {
+  grid-template-columns: repeat(1, 2fr);
+  grid-auto-rows: 200px;
+  gap: 1rem;
+}
+  /* .img-box::before {
+    content: "";
+    background-image: url("../images/herobg.png");
+    width: 100px;
+    height: 100px;
+  } */
+}

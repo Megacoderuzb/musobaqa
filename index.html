@@ -4,17 +4,258 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-6.4.0-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Najot Ta'lim</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="./pages/kurslar.html">Kurslar</a></li>
-          <li><a href="./pages/blog.html">Blog</a></li>
-          <li><button><a href="#"></a></button></li>
-        </ul>
-      </nav>
+    <header class="header">
+      <div class="container">
+        <nav class="navbar" role="navigation">
+          <span>
+            <img src="./images/najotlogo.png" alt="logo" />
+          </span>
+          <div class="navigation" id="menuToggle">
+            <!-- <input type="checkbox" class="burger"/> -->
+            
+            <span class="burger">
+              <i class="fas fa-bars"></i>
+            </span>
+            <!-- <ul class="menu-mobile nav-links" id="menu" hidden> -->
+              <!-- <li>
+                <button class="navbtn"><a href="#">Kirish</a></button>
+              </li> -->
+              <!-- <li>
+              </li> -->
+              <!-- <li class="offcanvas"></li> -->
+            <!-- </ul> -->
+            <div class="nav-ul"></div>
+          </div>
+        </nav>
+      </div>
     </header>
+    <section class="hero">
+      <div class="container">
+        <article class="intro">
+          <div class="texts">
+            <h2>Kasblarni <br /></h2>
+            <div class="animated-text">
+              <h3></h3>
+              <h3>onlayn</h3>
+              <h3>istalgan nuqtadan</h3>
+              <h3>"Najot Talim"da</h3>
+              <h3>mutaxasislaridan</h3>
+            </div>
+            <h2>o‘rganing <br /></h2>
+
+            <p class="slogan">
+              O‘zingizga qulay vaqtda, joyda va uslubda zamonaviy kasblarni
+              o‘rganing.
+            </p>
+            <a class="herobtn navbtn">Kurslarni ko'rish</a>
+          </div>
+          <div class="for-bg">
+            <div class="img-box">
+              <!-- <img src="https://najottalim.uz/_next/static/media/hero-bg.80b5b0ba.png" alt="img" /> -->
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="aboutus">
+      <div class="container">
+
+      <h2 class="heading">Bizning afzalliklarimiz<h2>
+        <div class="info">
+          <div class="info-box">
+            <div class="info-img">
+              <img src="./images/study.svg" alt="img" />
+              </div>
+              <div class="info-text">
+                <h3>Onlayn akademiya</h3>
+                <p>
+                  «Najot Ta’lim» digital academy — bu zamonaviy kasblar o‘qitiladigan onlayn
+akademiya. Qayerda bo‘lishingizdan qat’i nazar: uydami yo mehmonda,
+daladami yo safarda — o‘zingizga qulay tarzda va vaqtda bilim olishingiz
+mumkin, internet va noutbuk bo‘lsa bas.
+                </p>
+            </div>
+       </div>
+          <div class="info-box">
+            <div class="info-img">
+              <img src="./images/unvon.svg" alt="img" />
+              </div>
+              <div class="info-text">
+                <h3>O‘z ishining ustalari</h3>
+                <p>
+                  Darslar katta tajribaga ega malakali mutaxassislar tomonidan tayyorlangan.
+O‘z ishining ustalaridan yanada ishonchli bilim va tajribaga ega bo’lasiz
+                </p>
+            </div>
+       </div>
+          <div class="info-box">
+            <div class="info-img">
+              <img src="./images/ps.svg" alt="img" />
+              </div>
+              <div class="info-text">
+                <h3>Shunchaki Kurs Emas</h3>
+                <p>
+                  Har bir o‘quv kursi shunday ishlab chiqilganki, ularni muvaffaqiyatli yakunlab, siz zamonaviy kasb egasiga aylanishingiz va shu sohada o‘z faoliyatingizni boshlashingiz mumkin. Hammasi o‘z qo‘lingizda.
+                </p>
+            </div>
+       </div>
+          <div class="info-box">
+            <div class="info-img">
+              <img src="./images/target.svg" alt="img" />
+              </div>
+              <div class="info-text">
+                <h3>Interaktiv darslar</h3>
+                <p>
+                  Darslarni o‘zlashtirish davrida sizda savollar tug‘ilishi tabiiy holat. Mentorlarga murojaat qilishingiz, o’zingizni qiziqtirgan savollarizga javob olishingiz va tavsiyalar olishingiz mumkin
+                </p>
+            </div>
+       </div>
+         
+       </div>
+     
+       <div class="info-grid">
+        <div class="info-box">
+          <div class="info-img">
+            <img src="https://najottalim.uz/_next/static/media/practise.6bc9ecf9.svg" alt="img" />
+            </div>
+            <div class="info-text">
+              <h3>Nazariya va amaliyot</h3>
+              <p>
+                Siz har bir kursda berilgan topshiriqlarni amalga oshirish orqali bilimlaringizni yanada mustahkamlab borasiz
+              </p>
+          </div>
+     </div>
+        <div class="info-box">
+          <div class="info-img">
+            <img src="https://najottalim.uz/_next/static/media/meeting.7a70fb0c.svg" alt="img" />
+            </div>
+            <div class="info-text">
+              <h3>Mentor kerakmi?</h3>
+              <p>
+                Darslarni o‘zlashtirish davrida sizda savollar tug‘ilishi tabiiy holat. Mentorlarga murojaat qilsangiz, ular sizni qiynayotgan masalalar bo‘yicha yechim topishga yo‘l ko‘rsatadilar.
+              </p>
+          </div>
+     </div>
+        <div class="info-box">
+          <div class="info-img">
+            <img src="https://najottalim.uz/_next/static/media/icon-meeting.97730bc2.svg" alt="img" />
+            </div>
+            <div class="info-text">
+              <h3>Hamjamiyat</h3>
+              <p>
+                Kursni boshlashingiz bilan “Najot Ta’lim” yopiq hamjamiyatiga a’zo bo‘lasiz. Bu yerda siz o‘rganishga va tajriba almashishga tayyor odamlarni uchratasiz va tanishasiz
+              </p>
+          </div>
+     </div>
+        <div class="info-box">
+          <div class="info-img">
+            <img src="https://najottalim.uz/_next/static/media/comp.0f3c2810.svg" alt="img" />
+            </div>
+            <div class="info-text">
+              <h3>Hammamiz insonmiz</h3>
+              <p>
+                O‘qish jarayonida avvalgi o‘tilgan mavzular yoddan ko‘tarilishi, ba’zi mavzularni mustahkamlashga ehtiyoj tug‘ilishi mumkin. Shu bois sizda avvalgi darslarni takroran ko‘rish imkoniyati bor.
+               </p>
+          </div>
+     </div>
+        <div class="info-box">
+          <div class="info-img">
+            <img src="https://najottalim.uz/_next/static/media/sertificate.03e1fce1.svg" alt="img" />
+            </div>
+            <div class="info-text">
+              <h3>Sertifikat</h3>
+              <p>
+                Kursni muvaffaqiyatli yakunlaganingizdan so‘ng sizga elektron sertifikat taqdim etiladi. Sertifikat sizni bilimingizni oson ko’rsatib beruvchi isbot
+              </p>
+          </div>
+     </div>
+        <div class="info-box">
+          <div class="info-img">
+            <img src="https://najottalim.uz/_next/static/media/icon-fast-payment.0661bc1e.svg" alt="img" />
+            </div>
+            <div class="info-text">
+              <h3>Tezkor to‘lov</h3>
+              <p>
+                Xaridni eng ommabop to‘lov tizimlari orqali bir zumda amalga oshiring va kursni qo‘lga kiriting. Hammasi onlayn, hammasi zamonaviy, hammasi oson...</p>
+          </div>
+      </div>
+      </div>
+          
+        </div>
+      </section>
+      <!-- <section class="section-courses" id="courses"> -->
+      <!--   <div class="container">
+          <div class="section-title">
+            <h2>Yo‘nalishlar bo‘yicha kurslar</h2>
+            <p>
+              Zamonaviy sohalardan birini o‘rganing va talabgir kasb egasi bo‘ling!
+            </p>
+              </div>
+              <div class="courses-flex">
+                <div class="course-item">
+                  <div class="course-img">
+                    <img src="./images/course1.png" alt="img" />
+                    </div> 
+                    <div class="course-text">
+                      <h3>Dasturlash foundation</h3>
+                      <p>
+                        Foundation dasturlash kursida                         </p>
+                        <a href="/courses/o‘zbek-ta’lim-bo‘limi" class="btn">O‘qish</a>
+                        </div>
+                        </div>
+                <div class="course-item">
+                  <div class="course-img">
+                    <img src="./images/course1.png" alt="img" />
+                    </div>
+                    <div class="course-text">
+                      <h3>O‘zbek ta’lim bo‘limi</h3>
+                      <p>
+                        Bizning o‘zbek
+                        </p>
+                        <a href="/courses/o‘zbek-ta’lim-bo‘limi" class="btn">O‘qish</a>
+                        </div>
+                      </div>
+                    </div>
+                    </div>-->
+                    <!-- </section>  -->
+<div class="courses">
+<div class="container">
+  <div class="title">
+    <h2>Yo‘nalishlar bo‘yicha kurslar</h2>
+    <p>
+      Zamonaviy sohalardan birini o‘rganing va talabgir kasb egasi bo‘ling!
+    </p>
+  </div>
+  <div class="courses-flex">
+    <div class="courses-item">
+      
+        <div class="course-text">
+          <h3>Dasturlash foundation</h3>
+          <p>
+            Foundation dasturlash kursida 
+          </p>
+            </div>
+            </div>
+    <div class="courses-item">
+        <div class="course-text">
+          <h3>.NET mutaxassislik kursi</h3>
+          <p>
+            .NET mutaxassislik kursi
+            </p>
+            </div>
+          </div>
+        </div>
+        <a href="./pages/kurslar.html" class="course-link">Barcha kurslarni ko‘rish</a>
+</div>
+</div>
+    <script src="./app/index.js"></script>
   </body>
 </html>
